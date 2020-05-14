@@ -1,0 +1,97 @@
+body { background-color:#000000;
+color:white;
+width:478px;
+height:320px; 
+font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+margin: 0px;
+ }
+
+ #nav {
+	 height:40px;
+ }
+  #time {
+	 height:40px;
+ }
+ table {
+	 width:480px;
+height:320px;
+table-layout:fixed;
+ }
+ 
+ a {
+	 
+	 color: white;
+	 font-weight:bold;
+ }
+ 
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+.hourly i{
+	font-size:28px;
+}
+
+.hourly {
+	text-align:left;
+}
+
+table, th, td { border: 1px solid white;
+
+text-align: center;
+font-size:medium;
+background-position: left; 
+  background-repeat: no-repeat;
+  margin:0px
+}
+
+i {
+	font-size:72px;
+}
+
+.container i{
+	float:left;
+}
+
+#radar img {
+	width:474px;
+	height:232px;
+	position:absolute;
+    top: 92px;
+    left: 10px;
+	object-fit: cover;
+}
+
+.forecast i {
+	font-size:56px;
+	display:block;
+}
+
+.forecast  {
+	font-size:small
+}
+
+.forcast div {
+	display:inline-block;
+	margin-top:20px;
+	overflow: hidden;
+}
+
+.forecast img {
+	width:43px;
+	height:43px;
+	background-size:cover;
+}
+
+#now {
+	width:300px;
+}
+
+td {
+	text-align:center;
+}
+
+.sunny { color:yellow }
+.wet {color:lightblue }

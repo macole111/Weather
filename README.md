@@ -2,7 +2,7 @@
 
 This project contains a JavaScript only application that uses data from the Weather.Gov API (https://www.weather.gov/documentation/services-web-api) to show my local weather on a Raspberry Pi. It is interactive, shows several views and also shows local PATH subway times using this API (https://www.reddit.com/r/jerseycity/comments/bb4041/programmatic_realtime_path_data/)
 
-# Layout
+# Code
 
  * index.html - basic HTML layout
  * style.css - styling
